@@ -1,0 +1,228 @@
+/*phần update*/
+.update{
+    font-size: 20px;
+    padding: 20px 50px;
+    margin-bottom: 30px;
+    /* white-space: nowrap; */
+}
+.update input{
+    background-color: #FFF4A3;
+    border: none;
+    color: black;
+    padding:5px 5px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.update h2{
+    text-align: center;
+}
+.update input:hover {
+    background-color: #2c8254;
+    transition: all 0.5s ease 0s;
+    color: white;
+}
+.btnedit img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.btndel img{
+    width: 23px;
+    height: 23px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+th{
+    background-color: #ddd;
+    text-align: center;
+}
+td{
+    text-align: justify;
+}
+th,td{
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+/*phần edit*/
+.edit{
+    font-size: 20px;
+    padding: 20px 400px;
+    margin-bottom: 30px;
+    /* white-space: nowrap; */
+}
+.edit h2{
+    text-align: center;
+}
+.edit input{
+    padding: 3px 15px;
+    margin: 15px 0px;
+}
+.edit a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    margin-left: -370px;
+    font-style: italic;
+}
+.edit a:hover{
+    color: #2c8254;
+}
+.edit input[type=submit]{
+    background-color: #FFF4A3;
+    border: none;
+    color: black;
+    padding:5px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 125px;
+    margin-top: 40px;
+}
+.edit input[type=submit]:hover {
+    background-color: #2c8254;
+    transition: all 0.5s ease 0s;
+    color: white;
+}
+
+/*phần add*/
+.add{
+    font-size: 20px;
+    padding: 20px 400px;
+    margin-bottom: 30px;
+    /* white-space: nowrap; */
+}
+.add h2{
+    text-align: center;
+}
+.add input{
+    padding: 3px 15px;
+    margin: 15px 0px;
+}
+.add a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    margin-left: -370px;
+    font-style: italic;
+}
+.add select{
+    font-size: 17px;
+}
+.add a:hover{
+    color: #2c8254;
+}
+.add input[type=submit]{
+    background-color: #FFF4A3;
+    border: none;
+    color: black;
+    padding:5px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 125px;
+    margin-top: 40px;
+}
+.add input[type=submit]:hover {
+    background-color: #2c8254;
+    transition: all 0.5s ease 0s;
+    color: white;
+}
+
+/*phần content*/
+.content{
+    padding: 40px 70px;
+    font-size: 20px;
+}
+.content img{
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+}
+.content_img{
+    float: left;
+    width: 25%;
+    padding: 0px 30px 50px 50px;
+}
+.lesson_details{
+    float: left;
+    width: 62%;
+}
+.lesson_title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.sub_content{
+    /* width: 100%; */
+    padding: 0px 30px;
+    text-align: justify;
+}
+.content a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    font-style: italic;
+    margin-left: -40px;
+}
+.content a:hover{
+    color: #2c8254;
+}
+
+textarea{
+    width: 310px;
+    height: 100px;
+    margin: 20px 0px;
+}
+
+/*Phần search*/
+.search input[type="text"]{
+    margin-left: 830px;
+    margin-top: 20px;
+    font-size: 15px;
+    width: 200px;
+}
+.search input[type="submit"]
+{
+    background-color: #FFF4A3;
+    border: none;
+    color: black;
+    padding:3px 8px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.search input[type=submit]:hover {
+    background-color: #2c8254;
+    transition: all 0.5s ease 0s;
+    color: white;
+}
+.search a{
+    margin-left: 10px;
+}
+table.member{
+    width: 100%;
+}
+
+table.commenttb{
+    width: 90%;
+    margin-left: 20px;
+    border-spacing:30px;
+}
+
+.comment{
+    margin-top: 150px;
+}
+
+.comment textarea{
+    width: 100%;
+}
+
+.comment input[type="submit"]{
+    width: 150px;
+    padding: 10px 10px;
+    float:right;
+}
